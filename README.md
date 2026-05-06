@@ -129,7 +129,7 @@ Every signal can fan out to:
                   └──────────────┬──────────────┘
                                  │
                   ┌──────────────▼──────────────┐
-                  │  Ingestor Process (per chain)│
+                  │ Ingestor Process (per chain)│
                   │  • Provider auto-detect     │
                   │  • Dual-pump (Alchemy/Std)  │
                   │  • Fallback URL rotation    │
