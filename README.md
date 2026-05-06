@@ -31,6 +31,22 @@
 
 ---
 
+---
+
+## ⚖️ Legal Disclaimer 
+
+> [!WARNING]
+> **RESEARCH PURPOSES ONLY**
+> This software is developed for educational and open-source intelligence (OSINT) research purposes.
+>
+> 
+1. **Not Financial Advice:** Data provided by Whale Hunter does not constitute financial advice.
+2. **No Liability:** The developer is not responsible for any financial losses, gas fees, or unintended consequences resulting from the use of this software.
+3. **Sovereign Use:** Users are solely responsible for compliance with their local regulations and network protocols.
+
+---
+
+
 ⚠️ Operational Note: State Synchronization
 To ensure the integrity of the WSS (WebSocket) stream and the cryptographic verification layers, Whale Hunter requires a manual restart after modifying the Watchlist.
 
