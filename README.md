@@ -31,6 +31,18 @@
 
 ---
 
+⚠️ Operational Note: State Synchronization
+To ensure the integrity of the WSS (WebSocket) stream and the cryptographic verification layers, Whale Hunter requires a manual restart after modifying the Watchlist.
+
+While the TUI allows you to add or remove targets on the fly, a full application restart is necessary to re-initialize the multiprocessing daemon and re-bind the ingestion workers to the new target set.
+
+Press T to open the Command Center and manage wallets.
+
+Press Q to quit safely (flushing the encrypted local vault).
+
+Relaunch the application to engage the new sentinel parameters.
+
+
 <div align="center">
 
 <!-- ─── Animated TUI demo placeholder ─── -->
