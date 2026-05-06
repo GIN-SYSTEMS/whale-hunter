@@ -1,0 +1,10 @@
+[
+  {
+    "address": "0x0000000000000000000000000000000000000000",
+    "alias": "TGT-Example-NullAddress"
+  },
+  {
+    "address": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+    "alias": "USDT-Treasury"
+  }
+]

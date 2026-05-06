@@ -1,0 +1,19 @@
+# Environment Variables & Secrets 
+.env
+targets.json
+
+# Virtual Environments
+.venv/
+venv/
+env/
+
+# Build Artifacts & Executables
+build/
+dist/
+*.spec
+
+# Logs, Cache & Exports
+*.log
+exports/
+__pycache__/
+*.pyc

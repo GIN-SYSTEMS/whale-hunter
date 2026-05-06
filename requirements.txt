@@ -1,0 +1,31 @@
+# Whale Hunter: Sovereign-Grade On-Chain Intelligence Radar
+# Exact pins for reproducible deployments. Install with:
+#   pip install -r requirements.txt
+
+# ── Core runtime ──────────────────────────────────────────────
+# Async WebSocket ingestion
+websockets==16.0
+
+# Fast async HTTP (Telegram alerter)
+httpx==0.28.1
+
+# Terminal UI
+textual==8.2.4
+rich==15.0.0
+
+# Symmetric vault for .env secrets (Fernet / AES)
+cryptography==46.0.5
+
+# Environment file loader
+python-dotenv==1.0.1
+
+# ── Recommended accelerators ──────────────────────────────────
+# Fast JSON parser (silent fallback to stdlib json on import failure)
+orjson==3.11.8
+
+# Process priority + CPU affinity introspection
+psutil==7.2.2
+
+# ── Optional ──────────────────────────────────────────────────
+# uvloop: Linux-only event loop boost. Not installed by default.
+# uvloop==0.21.0 ; sys_platform != "win32"
